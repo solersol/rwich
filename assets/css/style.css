@@ -44,8 +44,10 @@
 
 ***/
 
+
 .main__separator {
     height: 100px;
+	width: 1920px;
     background-image: url('../images/separator.png'); /* Ensure the path is correct */
     background-size: contain;
     background-position: center;
@@ -101,21 +103,24 @@
 
 .banner-one_text{
 	position: relative;
-	font-size: 30px;
+	font-size: 45px;
+	font-weight: 600;
 	line-height: 40px;
 	padding-top:20px;
 	padding-right:180px;
-	color: black;
-	border-top:1px solid #540045;
+	color: #fff;
+	border-top:1px solid #fff;
 }
 
 .banner-one_text-two{
 	position: relative;
-	font-size: 30px;
+	font-size: 45px;
 	line-height: 40px;
+	font-weight: 600;
+
 	padding-bottom:20px;
 	padding-right:180px;
-	color: black;
+	color: #fff;
 	border-bottom:1px solid var(--white-color);
 }
 
@@ -628,7 +633,7 @@
 	top:0px;
 	right:0px;
 	bottom:0px;
-	opacity:0.90;
+	opacity:0.30;
 	background-color:var(--color-four);
 }
 
@@ -741,7 +746,7 @@
 .awards-one{
 	position:relative;
 	padding:100px 0px 100px;
-	background-color:var(--color-four);
+	background: url(/assets/images/X2.png);
 }
 
 .awards-one.style-two{
